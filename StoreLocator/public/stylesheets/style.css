@@ -18,10 +18,12 @@ fieldset {
     position: absolute;
     width : 320px;
     /*background:rgba(80,120,255,1);*/
-    min-height: 350px;
+    min-height: 450px;
     margin-left: 20px;
     margin-top: 20px;
     z-index: 7;
+    max-height: 550px;
+    overflow-y: auto;
 }
 .filterBlock,.marker_detail{
     border-radius: 10px;
@@ -70,7 +72,7 @@ fieldset {
     color : #ffffff;
 }
 .filter_group .select2-container , .filter_group select{
-    width: 150px;
+    width: 200px;
 }
 .main{
     margin : 1%;
@@ -309,4 +311,11 @@ table{
 
 .panel-primary {
     padding: 15px;
+}
+
+.btn-success {
+    color: #ffffff !important;
+    background-color: #47a447 !important;
+    border-color: #398439 !important;
+    height: 30px;
 }

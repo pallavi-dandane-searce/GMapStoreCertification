@@ -60,10 +60,13 @@
 
     <div class="filterBlock">
         <div class="filter_group">
+            <label style="color: mediumspringgreen;width: 100%;">* Select from below autocomplete or Click on map to select user location</label>
+            <br>
             <label>Select:</label>
             <input class="pac-input" id="src" googleplace autocomplete="off" ng-model="userAddressautoComplete"
                    type="text"
                    placeholder="Your location" required>
+            <br>
             <br>
             <label>Radius:</label>
             <select id="radiusSelect" label="Radius" ng-model="radius">
@@ -76,11 +79,16 @@
                 <option value=1>1 kms</option>
             </select>
             <br>
-            <input type="button" id="searchButton" class="btn-success" value="Search"
-                   ng-click="placeNearestLocations()"/>
+            <br>
+            <center>
+                <input type="button" id="searchButton" class="btn-success" value="Search"
+                       ng-click="placeNearestLocations()"/>
+            </center>
+
         </div>
 
-        <div>
+        <div style="margin-top: 20px;">
+            <label style="color: mediumspringgreen;width: 100%;">* Select/click on store marker to get directions.</label>
             <div id="directionsList" ng-show="directionsPanel.showList" class="panel panel-primary"></div>
         </div>
 

@@ -3,7 +3,7 @@ angular.module('gMapStoreLocator').controller('mapController', function ($scope,
      * radius of distance in Km to search for nearest stores
      * @type {number}
      */
-    $scope.radius = 30;
+    $scope.radius = 5;
 
     /**
      * Flag to show/hode directions panel
@@ -227,6 +227,10 @@ angular.module('gMapStoreLocator').controller('mapController', function ($scope,
                     arrInfowindows = [];
                     infoWindow.open(map, marker);
                     arrInfowindows.push(infoWindow);
+                    if ($scope.wayPoints[0].userAddress.geometry == undefined) {
+                        alert("Please select user location first to view directions.");
+                        return;
+                    }
 //                  display route on marker click
                     showDirections($scope.wayPoints[0].userAddress.geometry.location, e.latLng);
                 });
@@ -239,6 +243,10 @@ angular.module('gMapStoreLocator').controller('mapController', function ($scope,
      * serach and place nearby stores
      */
     $scope.placeNearestLocations = function () {
+        if ($scope.wayPoints[0].userAddress.geometry == undefined) {
+            alert("Please select user location first to view directions.");
+            return;
+        }
         var dist = 0;
         var nearestMarkers = [];
         var flightPath, infoWindow, marker_lat_lng, distance_from_location;
