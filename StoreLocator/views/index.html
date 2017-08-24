@@ -1,0 +1,91 @@
+<!--suppress HtmlUnknownTarget -->
+<html ng-app="gMapStoreLocator">
+<head>
+    <title>Google Maps</title>
+
+    <link type="text/css" rel="stylesheet"
+          href="http://ajax.aspnetcdn.com/ajax/jquery.ui/1.8.9/themes/blitzer/jquery-ui.css"/>
+    <link type="text/css" rel="stylesheet" href="/vendor/bootstrap-3.3.7-dist/css/bootstrap.css"/>
+    <link type="text/css" rel="stylesheet" href="/vendor/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css"/>
+    <link type="text/css" rel="stylesheet" href="/vendor/font-awesome-4.7.0/css/font-awesome.min.css"/>
+
+    <link rel='stylesheet' href='/stylesheets/style.css'/>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no"/>
+    <meta charset="utf-8"/>
+
+</head>
+<body ng-controller="mapController">
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDVR5iaxk4V2f3OqyyhwUrZdWvE7L7n8Uo&libraries=places"></script>
+<script src="/vendor/jquery-1.9.1.js"></script>
+<script src="/vendor/angular.js"></script>
+<script src="javascripts/app.js" type="text/javascript"></script>
+<script src="javascripts/mapController.js" type="text/javascript"></script>
+<script src="/vendor/angular-cookies-1.0.0rc10.js"></script>
+<script src="/vendor/angular-ui.js"></script>
+<script src="/vendor/angular-ui-states.js"></script>
+<script src="/vendor/angular-strap.min.js"></script>
+<script src="/vendor/ui-bootstrap-tpls-0.6.0.js"></script>
+<script src="/vendor/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+
+
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#" ng-mouseover="ShowHide()"><span
+                    class="glyphicon glyphicon-menu-hamburger"></span></a>
+        </div>
+        <p class="navbar-text navbar-center">Google Maps Store locator</p>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+
+
+</nav>
+
+
+<div class="main">
+
+    <div id="mymap"></div>
+
+    <div class="filterBlock">
+        <div class="filter_group">
+            <label>Select:</label>
+            <input class="pac-input" id="src" googleplace autocomplete="off" ng-model="userAddressautoComplete"
+                   type="text"
+                   placeholder="Your location" required>
+            <br>
+            <label>Radius:</label>
+            <select id="radiusSelect" label="Radius" ng-model="radius">
+                <option value=50>50 kms</option>
+                <option value=30>30 kms</option>
+                <option value=20>20 kms</option>
+                <option value=10>10 kms</option>
+                <option value=5>5 kms</option>
+                <option value=2>2 kms</option>
+                <option value=1>1 kms</option>
+            </select>
+            <br>
+            <input type="button" id="searchButton" class="btn-success" value="Search"
+                   ng-click="placeNearestLocations()"/>
+        </div>
+
+        <div>
+            <div id="directionsList" ng-show="directionsPanel.showList" class="panel panel-primary"></div>
+        </div>
+
+    </div>
+</div>
+
+</body>
+</html>

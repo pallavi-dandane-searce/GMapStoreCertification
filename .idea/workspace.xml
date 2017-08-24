@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="111c74a0-2d9c-4980-9a75-5de546a6c9d0" name="Default" comment="" />
+    <ignored path="Google Map certification Assignment.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="Google Map certification Assignment" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="mapController.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/StoreLocator/public/javascripts/mapController.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.7169811" vertical-offset="2134" max-vertical-offset="2550">
+              <caret line="378" column="32" selection-start-line="378" selection-start-column="32" selection-end-line="378" selection-end-column="32" />
+              <folding>
+                <element signature="e#97#191#0" expanded="false" />
+                <element signature="e#377#455#0" expanded="false" />
+                <element signature="e#489#565#0" expanded="false" />
+                <element signature="e#589#624#0" expanded="false" />
+                <element signature="e#668#697#0" expanded="false" />
+                <element signature="e#716#827#0" expanded="false" />
+                <element signature="e#983#1122#0" expanded="false" />
+                <element signature="e#1162#1180#0" expanded="false" />
+                <element signature="e#1232#1271#0" expanded="false" />
+                <element signature="e#1619#1772#0" expanded="false" />
+                <element signature="e#1901#2346#0" expanded="false" />
+                <element signature="e#1976#2176#0" expanded="false" />
+                <element signature="e#2004#2125#0" expanded="false" />
+                <element signature="e#2190#2334#0" expanded="false" />
+                <element signature="e#3880#3943#0" expanded="false" />
+                <element signature="e#4167#4265#0" expanded="false" />
+                <element signature="e#4320#4375#0" expanded="false" />
+                <element signature="e#4453#4494#0" expanded="false" />
+                <element signature="e#4530#4835#0" expanded="false" />
+                <element signature="e#4577#4827#0" expanded="false" />
+                <element signature="e#4842#5010#0" expanded="false" />
+                <element signature="e#5057#5628#0" expanded="false" />
+                <element signature="e#5634#5698#0" expanded="false" />
+                <element signature="e#5742#8040#0" expanded="false" />
+                <element signature="e#5784#6238#0" expanded="false" />
+                <element signature="e#5838#5897#0" expanded="false" />
+                <element signature="e#5974#6228#0" expanded="false" />
+                <element signature="e#6042#6171#0" expanded="false" />
+                <element signature="e#6265#8034#0" expanded="false" />
+                <element signature="e#6316#8022#0" expanded="false" />
+                <element signature="e#7080#7290#0" expanded="false" />
+                <element signature="e#7390#7456#0" expanded="false" />
+                <element signature="e#7516#7965#0" expanded="false" />
+                <element signature="e#7582#7656#0" expanded="false" />
+                <element signature="e#8047#8096#0" expanded="false" />
+                <element signature="e#8144#10560#0" expanded="false" />
+                <element signature="e#8329#8379#0" expanded="false" />
+                <element signature="e#8489#8542#0" expanded="false" />
+                <element signature="e#8743#10374#0" expanded="false" />
+                <element signature="e#9384#10364#0" expanded="false" />
+                <element signature="e#9441#9778#0" expanded="false" />
+                <element signature="e#9469#9606#0" expanded="false" />
+                <element signature="e#9925#10015#0" expanded="false" />
+                <element signature="e#10567#10687#0" expanded="false" />
+                <element signature="e#10772#11002#0" expanded="false" />
+                <element signature="e#10836#10953#0" expanded="false" />
+                <element signature="e#11082#11205#0" expanded="false" />
+                <element signature="e#11437#11506#0" expanded="false" />
+                <element signature="e#12123#12476#0" expanded="false" />
+                <element signature="e#12183#12458#0" expanded="false" />
+                <element signature="e#12810#12843#0" expanded="false" />
+                <element signature="e#12856#12930#0" expanded="false" />
+                <marker date="1503552920048" expanded="false" signature="6743:6760" placeholder="..." />
+                <marker date="1503552920048" expanded="false" signature="6837:6855" placeholder="..." />
+                <marker date="1503552920048" expanded="false" signature="6934:6953" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/StoreLocator/public/javascripts/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
+              <caret line="11" column="115" selection-start-line="11" selection-start-column="115" selection-end-line="11" selection-end-column="115" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/StoreLocator/views/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-2.6666667" vertical-offset="329" max-vertical-offset="750">
+              <caret line="77" column="16" selection-start-line="77" selection-start-column="16" selection-end-line="77" selection-end-column="16" />
+              <folding>
+                <element signature="tag#head#0;tag#html#0" expanded="false" />
+                <element signature="tag#link#0;tag#head#0;tag#html#0" expanded="false" />
+                <element signature="tag#script#0;tag#body#0;tag#html#0" expanded="false" />
+                <element signature="tag#nav#0;tag#body#0;tag#html#0" expanded="false" />
+                <element signature="tag#button#0;tag#div#0;tag#div#0;tag#nav#0;tag#body#0;tag#html#0" expanded="false" />
+                <element signature="tag#a#0;tag#div#0;tag#div#0;tag#nav#0;tag#body#0;tag#html#0" expanded="false" />
+                <element signature="tag#span#0;tag#a#0;tag#div#0;tag#div#0;tag#nav#0;tag#body#0;tag#html#0" expanded="false" />
+                <element signature="tag#input#0;tag#div#0;tag#div#1;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+                <element signature="tag#select#0;tag#div#0;tag#div#1;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+                <element signature="tag#input#1;tag#div#0;tag#div#1;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/StoreLocator/public/stylesheets/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-8.62963" vertical-offset="3892" max-vertical-offset="4755">
+              <caret line="275" column="28" selection-start-line="275" selection-start-column="28" selection-end-line="275" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="true" />
+    </FindUsagesManager>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/StoreLocator/public/stylesheets/iz-style.css" />
+        <option value="$PROJECT_DIR$/StoreLocator/public/stylesheets/style.css" />
+        <option value="$PROJECT_DIR$/StoreLocator/node_modules/handsontable/src/plugins/autofill/autofill.js" />
+        <option value="$PROJECT_DIR$/StoreLocator/public/javascripts/app.js" />
+        <option value="$PROJECT_DIR$/StoreLocator/views/index.html" />
+        <option value="$PROJECT_DIR$/StoreLocator/public/javascripts/mapController.js" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="65" />
+    <option name="y" value="24" />
+    <option name="width" value="1301" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Google Map certification Assignment" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Google Map certification Assignment" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Google Map certification Assignment" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StoreLocator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Google Map certification Assignment" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Google Map certification Assignment" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StoreLocator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Google Map certification Assignment" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Google Map certification Assignment" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StoreLocator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stylesheets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Google Map certification Assignment" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Google Map certification Assignment" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StoreLocator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Google Map certification Assignment" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Google Map certification Assignment" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StoreLocator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="node_modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="LayoutCode.rearrangeEntriesJavaScript" value="false" />
+    <property name="LayoutCode.rearrangeEntriesHTML" value="false" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="name" value="Dart" />
+      <option name="saveOutputToFile" value="false" />
+      <option name="showConsoleOnStdErr" value="false" />
+      <option name="showConsoleOnStdOut" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaScriptRunConfigurationType" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
+      <setting name="configLocationType" value="CONFIG_FILE" />
+      <setting name="settingsFile" value="" />
+      <setting name="serverType" value="INTERNAL" />
+      <setting name="preferredDebugBrowser" value="Chrome" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+      <envs />
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="111c74a0-2d9c-4980-9a75-5de546a6c9d0" name="Default" comment="" />
+      <created>1503546260972</created>
+      <updated>1503546260972</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="65" y="24" width="1301" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924962" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32924962" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/StoreLocator/public/vendor/client_secret.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
+          <caret line="0" column="76" selection-start-line="0" selection-start-column="76" selection-end-line="0" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StoreLocator/public/stylesheets/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.62963" vertical-offset="3892" max-vertical-offset="4755">
+          <caret line="275" column="28" selection-start-line="275" selection-start-column="28" selection-end-line="275" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StoreLocator/public/javascripts/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
+          <caret line="11" column="115" selection-start-line="11" selection-start-column="115" selection-end-line="11" selection-end-column="115" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StoreLocator/views/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.6666667" vertical-offset="329" max-vertical-offset="750">
+          <caret line="77" column="16" selection-start-line="77" selection-start-column="16" selection-end-line="77" selection-end-column="16" />
+          <folding>
+            <element signature="tag#head#0;tag#html#0" expanded="false" />
+            <element signature="tag#link#0;tag#head#0;tag#html#0" expanded="false" />
+            <element signature="tag#script#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#nav#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#button#0;tag#div#0;tag#div#0;tag#nav#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#a#0;tag#div#0;tag#div#0;tag#nav#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#span#0;tag#a#0;tag#div#0;tag#div#0;tag#nav#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#input#0;tag#div#0;tag#div#1;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#select#0;tag#div#0;tag#div#1;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#input#1;tag#div#0;tag#div#1;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StoreLocator/public/javascripts/mapController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7169811" vertical-offset="2134" max-vertical-offset="2550">
+          <caret line="378" column="32" selection-start-line="378" selection-start-column="32" selection-end-line="378" selection-end-column="32" />
+          <folding>
+            <element signature="e#97#191#0" expanded="false" />
+            <element signature="e#377#455#0" expanded="false" />
+            <element signature="e#489#565#0" expanded="false" />
+            <element signature="e#589#624#0" expanded="false" />
+            <element signature="e#668#697#0" expanded="false" />
+            <element signature="e#716#827#0" expanded="false" />
+            <element signature="e#983#1122#0" expanded="false" />
+            <element signature="e#1162#1180#0" expanded="false" />
+            <element signature="e#1232#1271#0" expanded="false" />
+            <element signature="e#1619#1772#0" expanded="false" />
+            <element signature="e#1901#2346#0" expanded="false" />
+            <element signature="e#1976#2176#0" expanded="false" />
+            <element signature="e#2004#2125#0" expanded="false" />
+            <element signature="e#2190#2334#0" expanded="false" />
+            <element signature="e#3880#3943#0" expanded="false" />
+            <element signature="e#4167#4265#0" expanded="false" />
+            <element signature="e#4320#4375#0" expanded="false" />
+            <element signature="e#4453#4494#0" expanded="false" />
+            <element signature="e#4530#4835#0" expanded="false" />
+            <element signature="e#4577#4827#0" expanded="false" />
+            <element signature="e#4842#5010#0" expanded="false" />
+            <element signature="e#5057#5628#0" expanded="false" />
+            <element signature="e#5634#5698#0" expanded="false" />
+            <element signature="e#5742#8040#0" expanded="false" />
+            <element signature="e#5784#6238#0" expanded="false" />
+            <element signature="e#5838#5897#0" expanded="false" />
+            <element signature="e#5974#6228#0" expanded="false" />
+            <element signature="e#6042#6171#0" expanded="false" />
+            <element signature="e#6265#8034#0" expanded="false" />
+            <element signature="e#6316#8022#0" expanded="false" />
+            <element signature="e#7080#7290#0" expanded="false" />
+            <element signature="e#7390#7456#0" expanded="false" />
+            <element signature="e#7516#7965#0" expanded="false" />
+            <element signature="e#7582#7656#0" expanded="false" />
+            <element signature="e#8047#8096#0" expanded="false" />
+            <element signature="e#8144#10560#0" expanded="false" />
+            <element signature="e#8329#8379#0" expanded="false" />
+            <element signature="e#8489#8542#0" expanded="false" />
+            <element signature="e#8743#10374#0" expanded="false" />
+            <element signature="e#9384#10364#0" expanded="false" />
+            <element signature="e#9441#9778#0" expanded="false" />
+            <element signature="e#9469#9606#0" expanded="false" />
+            <element signature="e#9925#10015#0" expanded="false" />
+            <element signature="e#10567#10687#0" expanded="false" />
+            <element signature="e#10772#11002#0" expanded="false" />
+            <element signature="e#10836#10953#0" expanded="false" />
+            <element signature="e#11082#11205#0" expanded="false" />
+            <element signature="e#11437#11506#0" expanded="false" />
+            <element signature="e#12123#12476#0" expanded="false" />
+            <element signature="e#12183#12458#0" expanded="false" />
+            <element signature="e#12810#12843#0" expanded="false" />
+            <element signature="e#12856#12930#0" expanded="false" />
+            <marker date="1503552920048" expanded="false" signature="6743:6760" placeholder="..." />
+            <marker date="1503552920048" expanded="false" signature="6837:6855" placeholder="..." />
+            <marker date="1503552920048" expanded="false" signature="6934:6953" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+

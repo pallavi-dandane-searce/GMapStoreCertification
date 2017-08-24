@@ -1,0 +1,51 @@
+create DATABASE gmap;
+
+use gmap;
+
+create TABLE stores(
+id INT NOT NULL AUTO_INCREMENT PRIMARY KEY ,
+s_name varchar(50) not null,
+s_address varchar(150) not null,
+s_type varchar(30) not null,
+s_rating float,
+markerColor varchar(10),
+icon varchar(500),
+lat float(10,8) not null,
+lng float(10,8) not null
+);
+
+
+INSERT INTO stores  VALUES ('1','iStore','Shop No. 64, Upper Ground Floor, Phoenix Market City, Viman Nagar, Pune, Maharashtra 411014, India','electronics_store','3.3','blue','https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png','18.5617184','73.9169052');  
+INSERT INTO stores  VALUES ('2','Firstcry','Shop No 204 & 205,2nd floor, S. No. 18/11/16, ,Spot 18 Mall,Near Pune 411027, Shivar Garden Pimple Saudagar, Pune, Maharashtra 411027, India','clothing_store','3.2','orange','https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png','18.5937508','73.7860453');  
+INSERT INTO stores  VALUES ('3','Dell Exclusive Store Camp Pune','Shop No.3, Chetna Apt, Opp.Kotak Mahindra Bank, 11 East Street, Camp, Pune, Maharashtra 411001, India','electronics_store','3.5','blue','https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png','18.5127176','73.8798456');  
+INSERT INTO stores  VALUES ('4','Unicorn Apple Premium Reseller','Shop no 1, Ground Floor, Premium Point Building, Opp. Mordern High School,, JM Road, Shivajinagar, Pune, Maharashtra 411005, India','electronics_store','3.5','blue','https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png','18.5246767','73.8496031');  
+INSERT INTO stores  VALUES ('5','Firstcry.com Store Pune - Bavdhan','Shop- 49/50, Aditya Shagun Mall, Bavdhan Pashan Road, Bavdhan, Pune, Maharashtra 411021, India','clothing_store','2.6','orange','https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png','18.5193018','73.7785139');  
+INSERT INTO stores  VALUES ('6','Firstcry.com Store Pune Viman Nagar','Datta Mandir Chowk, Viman Nagar, Pune, Maharashtra 411014, India','clothing_store','2.7','orange','https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png','18.5651414','73.9140955');  
+INSERT INTO stores  VALUES ('7','Firstcry.com Store Pune Kothrud','Borate Sankul, Near Shivaji Statue, Kothrud,, Pune, Maharashtra 411038, India','clothing_store','4','orange','https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png','18.5021146','73.812489');  
+INSERT INTO stores  VALUES ('8','CrossWord','Ozone, ITI Road , Aundh, Pune, Maharashtra 411001, India','book_store','4.4','green','https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png','18.5562492','73.8089748');  
+INSERT INTO stores  VALUES ('9','Forest Essentials','Shop No 09, Ground Floor, Near To Citi Bank Office, Koregaon Park Plaza, N Main Rd, Koregaon Park Annexe, Mundhwa, Pune, Maharashtra 411001, India','clothing_store','3','orange','https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png','18.5387827','73.907683');  
+INSERT INTO stores  VALUES ('10','Puma','Puma Store, R .B Business center Sangvi Nagar, Aundh, Pune, Maharashtra 411007, India','shoe_store','4','magenta','https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png','18.5605185','73.8133504');  
+INSERT INTO stores  VALUES ('11','The Bombay Store','322, MG Road, Camp, Pune, Maharashtra 411001, India','home_goods_store','4.5','purple','https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png','18.5164005','73.8787192');  
+INSERT INTO stores  VALUES ('12','Firstcry.com Store Pune Sinhgad Road','Sr.No. 60/7/1A/3, Ground Floor, Shop No.1, Wadgaon Budruk Near Abhiruchi Mall,, Sinhagad Rd, Pune, Maharashtra 411051, India','clothing_store','4.6','orange','https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png','18.4628504','73.8161681');  
+INSERT INTO stores  VALUES ('13','Siemens Brand Shop','Shop No. 17 & 18, Shangrila Garden,,Bundgarden Road, Near Icici Bank,, Pune, Maharashtra 411001, India','home_goods_store','4','purple','https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png','18.540931','73.8850988');  
+INSERT INTO stores  VALUES ('14','Laptop Store Laptop Service Center in Pune','Shop 114,FORTALEZA,CENTRAL AVENUE,KALYANI NAGAR, Pune, Maharashtra 411006, India','electronics_store','4.1','blue','https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png','18.5458549','73.9048326');  
+INSERT INTO stores  VALUES ('15','P.N.Gadgil Jewellers','658/59, Sachapir Street, Near MG Road, Opposite Hanuman Temple, Camp, Pune, Maharashtra 411001, India','jewelry_store','4.1','yellow','https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png','18.5137573','73.8784806');  
+INSERT INTO stores  VALUES ('16','Croma - Wakad, Pune','Ground Floor, Showroom no.3/2, Building No. A, GO Square, Wakad, Pune, Maharashtra 411057, India','electronics_store','3.7','blue','https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png','18.5904684','73.7700372');  
+INSERT INTO stores  VALUES ('17','Lenovo Exclusive Store','Shop No:1, Tilak Road, Next To Brother Showroom, Sadashiv Peth, Pune, Maharashtra 411030, India','electronics_store','3.3','blue','https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png','18.5098833','73.8467932');  
+INSERT INTO stores  VALUES ('18','All The Plus Size Store','Shop no. 25 LG, Phoenix Marketcity, Vimannagar, Pune, Pune, Maharashtra 411014, India','clothing_store','','orange','https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png','18.567929','73.914318');  
+INSERT INTO stores  VALUES ('19','Puma','Shop No.2, Next to Woodland Shop,, Kothrud, Pune, Maharashtra 411028, India','shoe_store','3.9','magenta','https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png','18.4997894','73.8135451');  
+INSERT INTO stores  VALUES ('20','Mom & Me','Phoenix Market City Mall Survey no 207, GP 04, lower ground floor, Viman Nagar, Pune, Maharashtra 411014, India','clothing_store','3.4','orange','https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png','18.561716','73.9177439');  
+INSERT INTO stores  VALUES ('21','Lifestyle','Yerawada, Pune, Maharashtra 411006, India','clothing_store','2.6','orange','https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png','18.5528889','73.8796372');  
+INSERT INTO stores  VALUES ('22','Life style','Near navale hospital,opp bora & company ,dhyari, Narhe Road, Pune, Maharashtra 411041, India','clothing_store','','orange','https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png','18.446424','73.813318');  
+INSERT INTO stores  VALUES ('23','Life Style','1249/1250, Hotel Good Luck Chowk, Fergusson College Rd, Deccan Gymkhana, Pune, Maharashtra 411004, India','furniture_store','3.8','purple','https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png','18.517074','73.8419');  
+INSERT INTO stores  VALUES ('24','Canteen Stores Department','CSD Area Depot Complex, Mandaley Lines, Range Hills, Khadki, Pune, Maharashtra 411003, India','department_store','3.9','red','https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png','18.5704162','73.859549');  
+INSERT INTO stores  VALUES ('25','Pantaloons store','SGS Mall, 231 Moledina Road, Camp, Pune, Maharashtra 411001, India','clothing_store','3.8','orange','https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png','18.5196836','73.8770469');  
+INSERT INTO stores  VALUES ('26','FirstCry Store','Kamat Gandhi Building, Opposite Hair Expresso, Near Kamala Nehru Park, Prabhat Road, Pune, Maharashtra 411005, India','clothing_store','3.8','orange','https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png','18.5177583','73.8340268');  
+INSERT INTO stores  VALUES ('27','Allen Solly Store','1260-A,, Sambhaji Mansion, Jangali Maharaj Road, Shivajinagar, Pune, Maharashtra 411004, India','clothing_store','3.8','orange','https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png','18.5183757','73.84417');  
+INSERT INTO stores  VALUES ('28','CSD canteen store','Range Hills, Pune, Maharashtra 411020, India','department_store','3.8','red','https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png','18.5560862','73.8402684');  
+INSERT INTO stores  VALUES ('29','The Wisdom Store','Shop No 2, Saraswati Bhavan,Paud Road,Kothrud,Near Bank Of Baroda, Pune, Maharashtra 411038, India','book_store','3.2','green','https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png','18.5101586','73.8204405');  
+INSERT INTO stores  VALUES ('30','Allen Solly Store','No 2, S No 167/168, New DP Road, Aundh, Aundh - Baner Link Road, Pune, Maharashtra 411007, India','clothing_store','4.5','orange','https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png','18.5655889','73.8064631');  
+INSERT INTO stores  VALUES ('31','Book store for Pre & Primary schoolers in Baner, pune - Rightdeal.in','Nandan Acura, B1-503, behind DMart, near pubmatic, Baner-, Baner - Balewadi Rd, Baner, Baner, Balewadi, Pune, Maharashtra 411045, India','book_store','3.5','green','https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png','18.569604','73.770072');  
+INSERT INTO stores  VALUES ('32','The Maharashtra Store','74, M.G.Road, Opposite New Bata Showroom, Camp, Pune, Maharashtra 411001, India','department_store','4','red','https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png','18.5121222','73.8788402');  
+INSERT INTO stores  VALUES ('33','Tommy Hilfiger Store','34, North Main Road, Ragvilas Society, Koregaon Park, Pune, Maharashtra 411001, India','clothing_store','1','orange','https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png','18.539622','73.8935748');  
+
